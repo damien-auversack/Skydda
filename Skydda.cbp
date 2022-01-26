@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Skydda" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Skydda" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="lib/SFML-2.5.1/include" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
+					<Add directory="lib/SFML-2.5.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Skydda" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="lib/SFML-2.5.1/include" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
+					<Add directory="lib/SFML-2.5.1/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Animation.h" />
+		<Unit filename="include/Collision.h" />
+		<Unit filename="include/CoupleFloat.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/GameRound.h" />
+		<Unit filename="include/GameScreen.h" />
+		<Unit filename="include/GameScreenRound.h" />
+		<Unit filename="include/GameScreenTimer.h" />
+		<Unit filename="include/GameTimer.h" />
+		<Unit filename="include/GlobalVariables.h" />
+		<Unit filename="include/HealthBar.h" />
+		<Unit filename="include/HealthBarView.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="include/MapView.h" />
+		<Unit filename="include/MenuScreen.h" />
+		<Unit filename="include/Movement.h" />
+		<Unit filename="include/MusicManager.h" />
+		<Unit filename="include/ObjectInitializer.h" />
+		<Unit filename="include/OptionScreen.h" />
+		<Unit filename="include/Platform.h" />
+		<Unit filename="include/PlatformView.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/PlayerBuilder.h" />
+		<Unit filename="include/PlayerSprite.h" />
+		<Unit filename="include/PlayerView.h" />
+		<Unit filename="include/PlayerViewBuilder.h" />
+		<Unit filename="include/Position.h" />
+		<Unit filename="include/PrematchScreen.h" />
+		<Unit filename="include/Screen.h" />
+		<Unit filename="include/ScreenIncluder.h" />
+		<Unit filename="include/SoundManager.h" />
+		<Unit filename="include/SpriteInitializer.h" />
+		<Unit filename="include/StatePlayer.h" />
+		<Unit filename="include/TextInitializer.h" />
+		<Unit filename="include/TextureLoader.h" />		
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Animation.cpp" />
+		<Unit filename="src/Collision.cpp" />
+		<Unit filename="src/CoupleFloat.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/GameRound.cpp" />
+		<Unit filename="src/GameScreen.cpp" />
+		<Unit filename="src/GameScreenRound.cpp" />
+		<Unit filename="src/GameScreenTimer.cpp" />
+		<Unit filename="src/GameTimer.cpp" />
+		<Unit filename="src/HealthBar.cpp" />
+		<Unit filename="src/HealthBarView.cpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/MapView.cpp" />
+		<Unit filename="src/MenuScreen.cpp" />
+		<Unit filename="src/Movement.cpp" />
+		<Unit filename="src/MusicManager.cpp" />
+		<Unit filename="src/ObjectInitializer.cpp" />
+		<Unit filename="src/OptionScreen.cpp" />
+		<Unit filename="src/Platform.cpp" />
+		<Unit filename="src/PlatformView.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/PlayerBuilder.cpp" />
+		<Unit filename="src/PlayerSprite.cpp" />
+		<Unit filename="src/PlayerView.cpp" />
+		<Unit filename="src/PlayerViewBuilder.cpp" />
+		<Unit filename="src/Position.cpp" />
+		<Unit filename="src/PrematchScreen.cpp" />
+		<Unit filename="src/Screen.cpp" />
+		<Unit filename="src/ScreenIncluder.cpp" />
+		<Unit filename="src/SoundManager.cpp" />
+		<Unit filename="src/SpriteInitializer.cpp" />
+		<Unit filename="src/TextInitializer.cpp" />
+		<Unit filename="src/TextureLoader.cpp" />
+
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
