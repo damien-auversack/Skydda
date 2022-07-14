@@ -1,4 +1,4 @@
-## Skydda | Projet scolaire | [FR]
+# Skydda | Projet scolaire | [FR]
 
 ## Informations
 
@@ -21,5 +21,3 @@ Le jeu s'inspire des jeux Brawlhalla et Super Smash Bros.
 <img align=top src="https://github.com/damien-auversack/Skydda/blob/main/presentation_pictures/picture_02.jpg" width="700px">
 <img align=top src="https://github.com/damien-auversack/Skydda/blob/main/presentation_pictures/picture_03.jpg" width="700px">
 </div>
-
-
